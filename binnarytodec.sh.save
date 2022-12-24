@@ -1,0 +1,10 @@
+echo "enter number : "
+read a 
+for i in $a
+do
+ 
+a=$(( a / 2 ))
+rem= $(( a % 2 ))
+done 
+echo  $rem
+
